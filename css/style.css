@@ -518,6 +518,7 @@ summary.ask {
 
 details.ans{
   margin: auto;
+  font-size: 0.9em;
   background-color: hsl(var(--hue) 35% 88%);
   padding: 0px;
   border-radius: 10px;
