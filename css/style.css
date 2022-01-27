@@ -393,11 +393,8 @@ nav.show div.icon-close {
 .item {
   flex: none;
 
-  width: 500px;
-  min-width: 200px;
-  height: 334px;
-  min-height: 133.6px;
-
+  width: 90vw;
+  height: auto;
   scroll-snap-align: start;
   pointer-events: none;
 }
