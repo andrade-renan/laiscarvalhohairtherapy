@@ -140,6 +140,7 @@ body {
   z-index: 100;
   background-color: var(--body-color);
   width: 100%;
+  justify-content: center;
 }
 
 #header.scroll {
@@ -395,7 +396,7 @@ nav.show div.icon-close {
   flex: none;
 
   width: 90vw;
-  max-width: 500px;
+  max-width:500px ;
   height: auto;
   max-height: auto;
   scroll-snap-align: start;
