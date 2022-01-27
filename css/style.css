@@ -373,10 +373,14 @@ nav.show div.icon-close {
   margin-bottom: 0.75rem;
 }
 /*=============== WORKS ===========================*/
+section.work {
 
+}
 
 #items-wrapper {
   width: 500px;
+  min-width: 250px;
+  
   margin: auto;
 }
 
@@ -393,7 +397,9 @@ nav.show div.icon-close {
   flex: none;
 
   width: 500px;
+  min-width: 250px;
   height: 334px;
+  min-height: 167px;
 
   scroll-snap-align: start;
   pointer-events: none;
