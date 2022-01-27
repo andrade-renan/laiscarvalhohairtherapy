@@ -104,6 +104,11 @@ body {
   gap: 2rem;
 }
 
+.grid1 {
+  display: grid;
+  gap: .5rem;
+}
+
 .section {
   padding: calc(5rem + var(--header-height)) 0;
 }
@@ -367,6 +372,39 @@ nav.show div.icon-close {
   font-size: 1.5rem;
   margin-bottom: 0.75rem;
 }
+/*=============== WORKS ===========================*/
+
+
+#items-wrapper {
+  width: 500px;
+  margin: auto;
+}
+
+#items {
+  display: flex;
+
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+}
+
+.item {
+  flex: none;
+
+  width: 500px;
+  height: 334px;
+
+  scroll-snap-align: start;
+  pointer-events: none;
+}
+
+#items img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
 
 /*====  TESTIMONIALS ============================ */
 #testimonials {
@@ -463,6 +501,33 @@ nav.show div.icon-close {
 #contact ul li i {
   color: var(--base-color);
 }
+
+/*== FAQ ===================================*/
+summary.ask {
+  margin: auto;
+  background-color: hsl(var(--hue) 20% 57%);
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  width: 100%;
+}
+
+details.ans{
+  margin: auto;
+  background-color: hsl(var(--hue) 35% 88%);
+  padding: 0px;
+  border-radius: 10px;
+  color: white;
+  border-radius: 10px;
+  color: white;
+  width: 80%;
+}
+
+details.ans p {
+  padding: 20px;
+  color: rgb(58, 58, 58);
+}
+
 
 /*====  FOOTER ============================ */
 footer {
